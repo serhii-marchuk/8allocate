@@ -1,0 +1,19 @@
+# PHP
+/vendor/
+.env
+
+# Docker
+.docker/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+/db_data/

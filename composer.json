@@ -1,0 +1,20 @@
+{
+  "name": "allocate/project",
+  "description": "test application",
+  "type": "project",
+  "require": {
+    "php": ">=8.4",
+    "vlucas/phpdotenv": "^5.6",
+    "doctrine/orm": "^3.6",
+    "symfony/cache": "^8.0",
+    "symfony/console": "^8.0",
+    "symfony/cache-contracts": "^3.6",
+    "symfony/yaml": "^8.0",
+    "symfony/var-exporter": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
